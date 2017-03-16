@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kobewangrui/vue-project/issues"
   },
-  "homepage": "https://github.com/kobewangrui/vue-project#readme"
+  "homepage": "https://github.com/kobewangrui/vue-project#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
 }
