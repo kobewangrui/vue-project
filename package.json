@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/kobewangrui/vue-project#readme",
   "devDependencies": {
+    "express": "^4.15.2",
     "webpack": "^2.2.1"
   }
 }
