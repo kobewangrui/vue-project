@@ -1,9 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Router from './config/router'
 
-Vue.use(VueRouter)
-const router = Router(VueRouter)
+
+const routes = [
+    {
+        path:'/',
+        component: require('./views/index.vue')
+    }
+]
 
 var router = new VueRouter(
     {
