@@ -13,6 +13,8 @@ let compiler = webpack({
     }
 })
 
+var devMiddleware = require('webpack-dev-middleware')(compiler,{})
+app.use(devMiddleware)
 
 app.listen(9999,function(){
     opn("http://localhost:9999")
