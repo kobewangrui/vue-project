@@ -10,6 +10,7 @@ var compiler = webpack(require('./webpack.base.conf'))
 var devMiddleware = require('webpack-dev-middleware')(compiler,{
     stats:{
         colors:true,
+        chunks:false
     }
 })
 app.use(devMiddleware)
