@@ -1,1 +1,2 @@
-document.write('hello word.')
+import Vue from 'vue'
+new Vue({}).$mount('#app')
