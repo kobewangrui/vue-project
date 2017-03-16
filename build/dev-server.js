@@ -1,17 +1,11 @@
-let express = require('express')
-let opn = require('opn')
-let webpack = require('webpack')
+var express = require('express')
+var opn = require('opn')
+var webpack = require('webpack')
 
-let app = express()
+var app = express()
 
 
-let compiler = webpack({
-    entry:'./src/entry.js',
-    output:{
-        path:'/',
-        filename:'bundle.js'
-    }
-})
+var compiler = webpack(require('./webpack.base.conf'))
 
 var devMiddleware = require('webpack-dev-middleware')(compiler,{})
 app.use(devMiddleware)
