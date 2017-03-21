@@ -7,6 +7,7 @@ var path = require('path')
 
 var webpackConfig = merge(baseWebpackConfig,{
     output:{
+        // ———dirname：存当前文件夹的根目录
         path:path.resolve(__dirname,'../dist'),
         filename:'js/bundle.js'
     }
