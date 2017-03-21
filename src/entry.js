@@ -4,6 +4,7 @@ import Router from './config/router'
 import Resource from 'vue-resource'
 
 Vue.use(VueRouter)
+Vue.use(Resource)
 var router = Router(VueRouter)
 new Vue({
     router
