@@ -10,3 +10,4 @@ var webpackConfig = merge(baseWebpackConfig,{
         filename:'js/bundle.js'
     }
 })
+module.exports = webpackConfig
