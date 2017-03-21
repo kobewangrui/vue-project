@@ -1,5 +1,6 @@
 var webpack = require('webpack')
 var baseWebpackConfig = require('./webpack.base.conf')
+// webpack-merge用于合并文件
 var merge = require('webpack-merge')
 var path = require('path')
 
