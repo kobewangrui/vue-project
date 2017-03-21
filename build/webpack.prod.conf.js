@@ -10,6 +10,3 @@ var webpackConfig = merge(baseWebpackConfig,{
         filename:'js/bundle.js'
     }
 })
-
-// 设置node为生产模式
-// IDBEnvironment.NODE_ENV = 'production'
