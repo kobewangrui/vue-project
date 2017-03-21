@@ -1,0 +1,1 @@
+IDBEnvironment.NODE_ENV = 'production'
