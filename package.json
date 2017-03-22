@@ -31,9 +31,13 @@
     "webpack-merge": "^4.1.0"
   },
   "dependencies": {
+    "jquery": "^3.2.1",
+    "jquery-validate": "^2.0.0",
+    "swiper": "^3.4.2",
     "vue": "^2.2.4",
     "vue-resource": "^1.2.1",
     "vue-router": "^2.3.0",
-    "vuex": "^2.2.1"
+    "vuex": "^2.2.1",
+    "webuploader": "^0.1.8"
   }
 }
