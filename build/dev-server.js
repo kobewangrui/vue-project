@@ -14,6 +14,7 @@ var devMiddleware = require('webpack-dev-middleware')(compiler,{
     }
 })
 app.use(devMiddleware)
+app.use('/static',express.static('./static'))
 
 app.listen(9999,function(){
     opn("http://localhost:9999")
